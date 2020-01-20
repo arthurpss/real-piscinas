@@ -15,38 +15,12 @@ export default () =>
   <div>
     <header>
       <div className="header-area ">
-        <div className="header-top_area">
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-6 col-md-6 ">
-                <div className="social_media_links">
-                  <a href="#">
-                    <i className="fa fa-linkedin"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-google-plus"></i>
-                  </a>
-                </div>
-              </div>
-              <div className="col-xl-6 col-md-6">
-                <div className="short_contact_list">
-                  <ul>
-                    <li><a href="#"> <i className="fa fa-envelope"></i> info@docmed.com</a></li>
-                    <li><a href="#"> <i className="fa fa-phone"></i> (61) 3000-3000 </a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div id="sticky-header" className="main-header-area">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-xl-3 col-lg-2">
                 <div className="logo">
+                  *Logo*
                   <a href="index.html">
                     <img src="img/logo.png" alt=""/>
                   </a>
@@ -85,13 +59,17 @@ export default () =>
             <div className="texto_banner">
               <h3>
                 <span>
-                  Real Piscinas
-                </span>
+                  Real
+                </span> <br/>
+                Piscinas
               </h3>
+              <p>
+                Especializada em confecção e manutenção de piscinas no DF,
+                <br/>
+                trabalhando com os melhores materiais e profissionais.
+              </p>
+              <a href="#" className="boxed-btn3">Conheça a loja</a>
             </div>
-            <p>In healthcare sector, service excellence is the facility of <br/> the hospital as
-              healthcare service provider to consistently.</p>
-            <a href="#" className="boxed-btn3">Conheça a loja</a>
           </div>
         </div>
       </div>
@@ -153,27 +131,25 @@ export default () =>
           <div className="col-xl-6 col-lg-6">
             <div className="welcome_thumb">
               <div className="thumb_1">
-                <img src={require('../assets/images/depositphotos_3898789-stock-photo-swimming-pool.jpg')} alt=""/>
+                <img src={require('../assets/images/images.jpeg')} alt=""/>
               </div>
               <div className="thumb_2">
-                <img src={require('../assets/images/Expolazer_Polimento.jpg')} alt=""/>
+                <img src={require('../assets/images/produtos.png')} alt=""/>
               </div>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6">
             <div className="welcome_docmed_info">
-              <h2>Welcome to Docmed</h2>
-              <h3>Best Care For Your <br/>
-                Good Health</h3>
-              <p>Esteem spirit temper too say adieus who direct esteem.
-                It esteems luckily or picture placing drawing. Apartments frequently or motionless on reasonable
-                projecting expression.</p>
+              <h2>Bem vindo a Real Piscinas</h2>
+              <h3>Os melhores produtos<br/>
+                para a sua piscina</h3>
+              <p>Trabalhamos com produtos HTH, Genco, (...)</p>
               <ul>
-                <li><i className="flaticon-right"></i> Apartments frequently or motionless.</li>
-                <li><i className="flaticon-right"></i> Duis aute irure dolor in reprehenderit in voluptate.</li>
-                <li><i className="flaticon-right"></i> Voluptatem quia voluptas sit aspernatur.</li>
+                <li><i className="flaticon-right"></i> Cloro</li>
+                <li><i className="flaticon-right"></i> Equipamentos para limpeza</li>
+                <li><i className="flaticon-right"></i> Robôs</li>
               </ul>
-              <a href="#" className="boxed-btn3-white-2">Learn More</a>
+              <a href="#" className="boxed-btn3-white-2">Veja mais</a>
             </div>
           </div>
         </div>
@@ -184,9 +160,8 @@ export default () =>
         <div className="row">
           <div className="col-xl-12">
             <div className="section_title text-center mb-55">
-              <h3>Our Departments</h3>
-              <p>Esteem spirit temper too say adieus who direct esteem. <br/>
-                It esteems luckily or picture placing drawing.</p>
+              <h3>Nossos serviços</h3>
+              <p>Cuidamos da saúde da sua piscina em qualquer situação.</p>
             </div>
           </div>
         </div>
@@ -197,9 +172,9 @@ export default () =>
                 <img src="img/department/1.png" alt=""/>
               </div>
               <div className="department_content">
-                <h3><a href="#">Eye Care</a></h3>
-                <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                <a href="#" className="learn_more">Learn More</a>
+                <h3><a href="#">Água verde</a></h3>
+                <p>(...)</p>
+                <a href="#" className="learn_more">Veja mais</a>
               </div>
             </div>
           </div>
@@ -209,9 +184,9 @@ export default () =>
                 <img src="img/department/2.png" alt=""/>
               </div>
               <div className="department_content">
-                <h3><a href="#">Physical Therapy</a></h3>
-                <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                <a href="#" className="learn_more">Learn More</a>
+                <h3><a href="#">Água gordurosa</a></h3>
+                <p>(...)</p>
+                <a href="#" className="learn_more">Veja mais</a>
               </div>
             </div>
           </div>
@@ -221,9 +196,9 @@ export default () =>
                 <img src="img/department/3.png" alt=""/>
               </div>
               <div className="department_content">
-                <h3><a href="#">Dental Care</a></h3>
-                <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                <a href="#" className="learn_more">Learn More</a>
+                <h3><a href="#">Manchas</a></h3>
+                <p>(...)</p>
+                <a href="#" className="learn_more">Veja mais</a>
               </div>
             </div>
           </div>
@@ -233,9 +208,9 @@ export default () =>
                 <img src="img/department/4.png" alt=""/>
               </div>
               <div className="department_content">
-                <h3><a href="#">Diagnostic Test</a></h3>
-                <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                <a href="#" className="learn_more">Learn More</a>
+                <h3><a href="#">Rachaduras</a></h3>
+                <p>(...)</p>
+                <a href="#" className="learn_more">Veja mais</a>
               </div>
             </div>
           </div>
@@ -245,9 +220,9 @@ export default () =>
                 <img src="img/department/5.png" alt=""/>
               </div>
               <div className="department_content">
-                <h3><a href="#">Skin Surgery</a></h3>
-                <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                <a href="#" className="learn_more">Learn More</a>
+                <h3><a href="#">Problemas na bomba</a></h3>
+                <p>(...)</p>
+                <a href="#" className="learn_more">Veja mais</a>
               </div>
             </div>
           </div>
@@ -257,9 +232,9 @@ export default () =>
                 <img src="img/department/6.png" alt=""/>
               </div>
               <div className="department_content">
-                <h3><a href="#">Surgery Service</a></h3>
-                <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                <a href="#" className="learn_more">Learn More</a>
+                <h3><a href="#">Sistema de aquecimento</a></h3>
+                <p>(...)</p>
+                <a href="#" className="learn_more">Veja mais</a>
               </div>
             </div>
           </div>
@@ -330,107 +305,6 @@ export default () =>
         </div>
       </div>
     </div>
-    <div className="business_expert_area">
-      <div className="business_tabs_area">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-12">
-              <ul className="nav" id="myTab" role="tablist">
-                <li className="nav-item">
-                  <a className="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                     aria-controls="home"
-                     aria-selected="true">Excellent Services</a>
-                </li>
-
-                <li className="nav-item">
-                  <a className="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                     aria-controls="profile"
-                     aria-selected="false">Qualified Doctors</a>
-                </li>
-
-
-                <li className="nav-item">
-                  <a className="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                     aria-controls="contact"
-                     aria-selected="false">Emergency Departments</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <div className="container">
-        <div className="border_bottom">
-          <div className="tab-content" id="myTabContent">
-            <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-
-              <div className="row align-items-center">
-                <div className="col-xl-6 col-md-6">
-                  <div className="business_info">
-                    <div className="icon">
-                      <i className="flaticon-first-aid-kit"></i>
-                    </div>
-                    <h3>Leading edge care for Your family</h3>
-                    <p>Esteem spirit temper too say adieus who direct esteem.
-                      It esteems luckily picture placing drawing. Apartments frequently or motionless on
-                      reasonable projecting expression.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-xl-6 col-md-6">
-                  <div className="business_thumb">
-                    <img src="img/about/business.png" alt=""/>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-              <div className="row align-items-center">
-                <div className="col-xl-6 col-md-6">
-                  <div className="business_info">
-                    <div className="icon">
-                      <i className="flaticon-first-aid-kit"></i>
-                    </div>
-                    <h3>Leading edge care for Your family</h3>
-                    <p>Esteem spirit temper too say adieus who direct esteem.
-                      It esteems luckily picture placing drawing. Apartments frequently or motionless on
-                      reasonable projecting expression.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-xl-6 col-md-6">
-                  <div className="business_thumb">
-                    <img src="img/about/business.png" alt=""/>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-              <div className="row align-items-center">
-                <div className="col-xl-6 col-md-6">
-                  <div className="business_info">
-                    <div className="icon">
-                      <i className="flaticon-first-aid-kit"></i>
-                    </div>
-                    <h3>Leading edge care for Your family</h3>
-                    <p>Esteem spirit temper too say adieus who direct esteem.
-                      It esteems luckily picture placing drawing. Apartments frequently or motionless on
-                      reasonable projecting expression.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-xl-6 col-md-6">
-                  <div className="business_thumb">
-                    <img src="img/about/business.png" alt=""/>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div className="expert_doctors_area">
       <div className="container">
         <div className="row">
@@ -445,7 +319,7 @@ export default () =>
             <div className="expert_active owl-carousel">
               <div className="single_expert">
                 <div className="expert_thumb">
-                  <img src="img/experts/1.png" alt=""/>
+                  <img src={require('../assets/images/thumb1.jpg')} alt=""/>
                 </div>
                 <div className="experts_name text-center">
                   <h3>Mirazul Alom</h3>
@@ -509,11 +383,11 @@ export default () =>
             <div
               className="single_emergency d-flex align-items-center justify-content-center emergency_bg_1 overlay_skyblue">
               <div className="info">
-                <h3>For Any Emergency Contact</h3>
-                <p>Esteem spirit temper too say adieus.</p>
+                <h3>Contato WhatsApp</h3>
+                <p>Entre em contato para um atendimento personalizado</p>
               </div>
               <div className="info_button">
-                <a href="#" className="boxed-btn3-white">+10 378 4673 467</a>
+                <a href="#" className="boxed-btn3-white">61 99610-8589</a>
               </div>
             </div>
           </div>
@@ -521,11 +395,11 @@ export default () =>
             <div
               className="single_emergency d-flex align-items-center justify-content-center emergency_bg_2 overlay_skyblue">
               <div className="info">
-                <h3>Make an Online Appointment</h3>
-                <p>Esteem spirit temper too say adieus.</p>
+                <h3>Faça um orçamento online</h3>
+                <p>Simule um serviço ou a compra de produtos</p>
               </div>
               <div className="info_button">
-                <a href="#" className="boxed-btn3-white">Make an Appointment</a>
+                <a href="#" className="boxed-btn3-white">Fazer orçamento</a>
               </div>
             </div>
           </div>
@@ -539,13 +413,14 @@ export default () =>
             <div className="col-xl-4 col-md-6 col-lg-4">
               <div className="footer_widget">
                 <div className="footer_logo">
+                  *logo*
                   <a href="#">
                     <img src="img/footer_logo.png" alt=""/>
                   </a>
                 </div>
                 <p>
-                  Firmament morning sixth subdue darkness
-                  creeping gathered divide.
+                  Siga nossas redes sociais para receber dicas, promoções
+                  e conteúdo relacionado.
                 </p>
                 <div className="socail_links">
                   <ul>
@@ -609,22 +484,6 @@ export default () =>
                   docmed@contact.com
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="copy-right_text">
-        <div className="container">
-          <div className="footer_border"></div>
-          <div className="row">
-            <div className="col-xl-12">
-              <p className="copy_right text-center">
-                Copyright &copy;
-                <script>document.write(new Date().getFullYear());</script>
-                All rights reserved | This template is made with <i className="fa fa-heart-o"
-                                                                    aria-hidden="true"></i> by <a
-                href="https://colorlib.com" target="_blank">Colorlib</a>
-              </p>
             </div>
           </div>
         </div>

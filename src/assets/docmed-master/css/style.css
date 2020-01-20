@@ -1258,6 +1258,11 @@ h3 {
   background-image: url("../../images/background.jpg");
 }
 
+.banner_inicial .container {
+  position: relative;
+  top: 170px;
+}
+
 .banner_inicial .texto_banner h3 {
   color: #1F1F1F;
   font-family: "Poppins", sans-serif;
@@ -1268,7 +1273,7 @@ h3 {
 }
 
 .banner_inicial .texto_banner h3 span {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 @media (max-width: 767px) {
@@ -1382,7 +1387,7 @@ h3 {
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
 .welcome_docmed_area {
   padding-top: 120px;
-  padding-bottom: 220px;
+  padding-bottom: 180px;
 }
 
 @media (max-width: 767px) {
